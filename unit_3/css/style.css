@@ -1,0 +1,47 @@
+
+body {
+	margin:0;
+	background-color: #f6f6f6;
+	padding:10px;
+}
+h1 {
+	font-family:'Crimson Text', serif; font-size:48px; font-weight:400px;
+}
+h2 {
+	font-family:'Open Sans', sans-serif; font-size:32px; font-weight:400px; color: #2495A0;
+}
+h3 {
+	font-family:'Open Sans', sans-serif; font-size:24px; font-weight:400px; text-transform:uppercase; color:#005A87;
+}
+p, ul {
+	font-family:'Open Sans', sans-serif; font-size:20px;
+}
+.hero-image {
+	padding:0px;
+	background-image: url(../images/hero.png);
+	background-color:black;
+	height:250px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+}
+.hero-text {
+	text-align:center;
+	color:white;
+	padding:5px;
+}
+.background-image {
+	background-image: url(../images/background.png);
+	background-color:#f6f6f6;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+}
+#slogan {
+	font-family:'Petit Formal Script', cursive; font-size:38px;
+}
+#contact {
+	font-style:italic;
+}
