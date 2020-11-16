@@ -2,22 +2,23 @@
 body {
 	margin:0;
 	background-color: #f6f6f6;
-	padding:10px;
 }
 h1 {
-	font-family:'Crimson Text', serif; font-size:48px; font-weight:400px;
+	font-family:'Playfair Display', serif; font-size:60px; font-weight:700px;
 }
 h2 {
-	font-family:'Open Sans', sans-serif; font-size:32px; font-weight:400px; color: #2495A0;
+	font-family:'Lato', sans-serif; font-size:36px; font-weight:400px; color: #0A4145;
 }
 h3 {
-	font-family:'Open Sans', sans-serif; font-size:24px; font-weight:400px; text-transform:uppercase; color:#005A87;
+	font-family:'Lato', sans-serif; font-size:26px; font-weight:400px; text-transform:uppercase; color:#5a89a2;
 }
 p, ul {
-	font-family:'Open Sans', sans-serif; font-size:20px;
+	font-family:'Lato', sans-serif; font-size:18px; font-weight:400px;
+}
+main, footer {
+	padding: 10px;
 }
 .hero-image {
-	padding:0px;
 	background-image: url(../images/hero.png);
 	background-color:black;
 	height:250px;
@@ -33,14 +34,15 @@ p, ul {
 }
 .background-image {
 	background-image: url(../images/background.png);
-	background-color:#f6f6f6;
+	background-color:#f7f7f7;
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	position:relative;
 }
 #slogan {
-	font-family:'Petit Formal Script', cursive; font-size:38px;
+	font-family:'Playfair Display', serif; font-size:38px; font-weight:500;
+	font-style: italic;
 }
 #contact {
 	font-style:italic;
