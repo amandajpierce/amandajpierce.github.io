@@ -1,0 +1,259 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+</style>
+
+img {
+	max-width: 100%;
+  	height: auto;
+}
+
+section {
+	margin:2em 0;
+}
+
+h1 {
+	font-family:'Playfair Display',serif; 
+	font-weight:900;
+	font-size: 5em;
+	color:#056693;
+}
+
+h2 {
+	font-family:'Playfair Display',serif; 
+	font-weight:700; 
+	font-size:4em;
+	color:#054348;
+	margin:1em 0;
+}
+
+h3 {
+	font-family:'Playfair Display',serif; 
+	font-weight:700; 
+	font-size:3em;
+	color:#ffffff;
+	margin:1em;
+}
+
+p {
+	font-family:'Lato', sans-serif;
+	font-size:1.5em;
+	font-weight:400;
+	line-height:1.7em;
+}
+
+blockquote {
+	font-family:'Playfair Display',serif; 
+	font-size:2em;
+	font-weight:400;
+	line-height: 1.7em;
+	color:#054348;
+	padding:1em;
+	margin:auto;
+	width:36em;
+}
+
+blockquote:hover {
+	background-color:#056693;
+}
+
+footer {
+	font-family:'Playfair Display',serif; 
+	letter-spacing:.1em;
+	text-align:center;
+	color: white;
+	background-color:#054348;
+	padding:3em 0;
+}
+
+a:link {
+	color:#fff;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#5a89a2;
+}
+
+a:hover {
+	color:#cbd5df;
+}
+
+button {
+	background-color:#056693;
+	padding:1em;
+	font-family:'Lato', sans-serif; 
+	font-size:1.3em; 
+	font-weight:700; 
+	text-transform:uppercase; 
+	color:#fff;
+	letter-spacing:.15em;
+	border: none;
+	text-align:center;
+	border-radius:.125em;
+	margin:2em 0;
+}
+
+.left {
+    float: left;
+    width:30%;
+}
+
+.right {
+    float: right;   
+    width:70%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.work-images, {
+	width:25%;
+	height:auto;
+	margin:2em;
+}
+
+.about-images {
+	margin:2em;
+}
+
+.social-images {
+	display: inline-block;
+	width:2em;
+	height:auto;
+	margin:1em;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  font-color: white;
+  display:inline-block;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#wrapper {
+	background-color:#F3F5F7;
+}
+
+#hero-image {
+	background-image: url(../images/hero.png);
+	background-color:#5a89a2;
+	height:auto;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	margin:0;
+}
+
+#hero-text, #slogan {
+	text-align:center;
+	color:white;
+	padding:.5em 0;
+}
+
+#slogan {
+	font-family:'Playfair Display', serif;
+	font-size:2.5em;
+	font-weight:400;
+	font-style: italic;
+	width:auto;
+}
+
+#contact {
+	font-family:'Playfair Display', serif;
+	font-style:italic;
+}
+
+.social {
+	align-content: center;
+}
+
+#headernav {
+	color: #ffffff;
+	font-family:'Lato', sans-serif;
+	font-weight:bold;
+	font-size:1.25em;
+	text-transform:uppercase;
+	letter-spacing:.3em;
+	text-align:center;
+	width:auto;
+	padding:1em 0;
+	background-color:#054348;
+}
+
+#recent-work, #kind-words, #services {
+	text-align:center;
+	display:inline-block;
+}
+
+#about {
+	background-image: url(../images/aboutbackground.png);
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	margin:0;
+	padding:1em;
+}
+
+#services {
+	background-image: url(../images/servicesbackground.png);
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	margin:0;
+	padding:1em;
+
+}
+
+#recent-work {
+	background-image: url(../images/recentworkbackground.png);
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	margin:0;
+	padding:1em;
+
+}
+
+#kind-words {
+	background-image: url(../images/kindwordsbackground.png);
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	margin:0;
+	padding:1em;
+
+}
+
+@media only screen and (max-width:1200px) {
+	.right, .left {
+	float:none;
+	width:100%;
+	}
+}
