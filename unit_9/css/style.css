@@ -36,7 +36,7 @@ h3 {
 
 p {
 	font-family:'Lato', sans-serif;
-	font-size:1.5em;
+	font-size:1.6em;
 	font-weight:400;
 	line-height:1.7em;
 }
@@ -45,7 +45,7 @@ blockquote {
 	font-family:'Playfair Display',serif; 
 	font-size:2.4em;
 	font-weight:700;
-	text-shadow: .08em .08em #056693;
+	text-shadow: .1em .1em #056693;
 	line-height: 1.7em;
 	color:#ffffff;
 	padding:1em;
@@ -99,7 +99,7 @@ button {
 }
 
 aside {
-	width:30%;
+	width:25%;
 }
 
 article {
@@ -117,6 +117,7 @@ article {
 
 .about-images {
 	margin:2em;
+	width:75%;
 }
 
 .social-images {
@@ -132,6 +133,7 @@ article {
   font-color: white;
   display:inline-block;
   margin:3em;
+  vertical-align:top;
 }
 
 .centered {
@@ -139,6 +141,7 @@ article {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: .2em .2em #056693;
 }
 
 #wrapper {
