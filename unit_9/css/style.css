@@ -43,17 +43,14 @@ p {
 
 blockquote {
 	font-family:'Playfair Display',serif; 
-	font-size:2em;
-	font-weight:400;
+	font-size:2.4em;
+	font-weight:700;
+	text-shadow: .08em .08em #056693;
 	line-height: 1.7em;
-	color:#054348;
+	color:#ffffff;
 	padding:1em;
 	margin:auto;
 	width:36em;
-}
-
-blockquote:hover {
-	background-color:#056693;
 }
 
 footer {
@@ -94,13 +91,19 @@ button {
 }
 
 .left {
-    float: left;
-    width:30%;
+    float:left;
 }
 
 .right {
-    float: right;   
-    width:70%;
+    float:right;   
+}
+
+aside {
+	width:30%;
+}
+
+article {
+	width:70%;
 }
 
 .clearfix:after {
@@ -112,19 +115,13 @@ button {
     height: 0;
 }
 
-.work-images, {
-	width:25%;
-	height:auto;
-	margin:2em;
-}
-
 .about-images {
 	margin:2em;
 }
 
 .social-images {
 	display: inline-block;
-	width:2em;
+	width:3em;
 	height:auto;
 	margin:1em;
 }
@@ -134,6 +131,7 @@ button {
   text-align: center;
   font-color: white;
   display:inline-block;
+  margin:3em;
 }
 
 .centered {
@@ -171,6 +169,10 @@ button {
 	font-weight:400;
 	font-style: italic;
 	width:auto;
+}
+
+#about-me {
+	width:40em;
 }
 
 #contact {
@@ -222,7 +224,12 @@ button {
 	position:relative;
 	margin:0;
 	padding:1em;
+}
 
+.servicetext {
+	color:#ffffff;
+	text-align: center;
+	width:15em;
 }
 
 #recent-work {
