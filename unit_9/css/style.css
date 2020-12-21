@@ -59,6 +59,11 @@ blockquote {
 	width:73%;
 }
 
+header, footer {
+	width:100%;
+	margin:0;
+}
+
 footer {
 	font-family:'Playfair Display',serif; 
 	letter-spacing:.1em;
