@@ -68,11 +68,11 @@ a:link {
 }
 
 a:visited {
-	color:#5a89a2;
+	color:#056693;
 }
 
 a:hover {
-	background-color:#056693;
+	color:#5a89a2;
 }
 
 button {
